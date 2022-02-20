@@ -8,12 +8,23 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     overflow: hidden;
     margin: 0;
-    background: #111;
+    background: #dffe91;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* полосы бекграунда */
+.stripe {
+    color: #ffffff;
+    background: repeating-linear-gradient(
+    120deg,
+    #4f8dff,
+    #4f8dff 20px,
+    #1a63e9 20px,
+    #1a63e9 35px
+  );}
 
 .container {
     width: 100%;
@@ -22,12 +33,12 @@ body {
 }
 
 .slide {
-    height: 80vh;
+    height: 60vh;
     border-radius: 20px;
     margin: 10px;
     cursor: pointer;
     color: #fff;
-    flex: 1;
+    flex: 5;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,9 +48,9 @@ body {
 
 .slide h3 {
     position: absolute;
-    font-size: 24px;
+    font-size: 32px;
     bottom: 20px;
-    left: 20px;
+    left: 40px;
     margin: 0;
     opacity: 0;
 }
