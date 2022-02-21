@@ -38,7 +38,6 @@ li a {
 li a:hover {
     color: #8fd3f4;
 }
-
 /*  */
 
 .container {
@@ -64,6 +63,7 @@ li a:hover {
     color: #fff;
 }
 .item {
+    margin-top: 10px;
     width: 150px;
     height: 66px;
     border: 1px solid #eee;
@@ -106,4 +106,18 @@ li a:hover {
 
 .done {
     background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.hold {
+    background-color: #26d4ff;
+    border: 5px solid #fffbfb;
+    color: black;
+}
+
+.hide {
+    display: none;
+}
+
+.hovered {
+    border-top: 2px solid blanchedalmond;
 }
